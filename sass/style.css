@@ -1,0 +1,157 @@
+body {
+  font: 15px/1.5 rial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #f4f4f4;
+  height: 100%;
+}
+
+/* Globals */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button-1 {
+  height: 36px;
+  background-color: #a9508b;
+  color: #ffffff;
+}
+
+/* HEADER */
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  min-height: 70px;
+  border-bottom: 3px solid #a9508b;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+
+header span,
+header .current a {
+  color: #a9508b;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+}
+
+/* SHOWCASE */
+#showcase {
+  min-height: 400px;
+  background: url(../img/showcase.jpg) no-repeat 0 -400px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h2 {
+  font-size: 55px;
+  margin: 100px 0 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+/* NEWSLETTER */
+#newsletter {
+  padding: 15px 0;
+  background-color: #35424a;
+  color: #ffffff;
+}
+
+#newsletter .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#newsletter .container input[type="email"] {
+  padding: 4px;
+  width: 250px;
+  height: 25px;
+  font-family: monospace;
+}
+
+/* BOXES */
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#boxes .box {
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+/* FOOTER */
+footer {
+  margin: 20px 0;
+  background-color: #a9508b;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer p {
+  padding-top: 15px;
+}
+
+footer img {
+  width: 150px;
+}
+/*# sourceMappingURL=style.css.map */
